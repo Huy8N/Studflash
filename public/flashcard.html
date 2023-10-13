@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studfast</title>
+    <link rel="stylesheet" href="flashcard.css">
+</head>
+<body>
+    <div class="createflashcard">
+            <h1>Create Flashcard</h1>
+            <label for="mainQuestion">Question:</label>
+            <br>
+            <textarea id="mainQuestion"></textarea>
+            <br>
+            <label for="mainAnswer">Answer:</label>
+            <br>
+            <textarea id="mainAnswer"></textarea>
+            <div class="buttons-containers">
+                <button id="add">Add</button> 
+                <button id="clear">Clear</button> 
+                <button id="load">Previous</button> 
+            </div> 
+    </div>
+        <div class="flashcard-containers" id="flashcard">
+        </div>
+     </div>
+</body>
+<script src="flashcard.js"></script>
+</html>

@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    height: 100vh;
+}
+
+.createflashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.buttons-containers {
+    margin-top: 15px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#add {
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    transition: 0.2s;
+    border-color: black;
+    transition: 0.2s;
+}
+
+#clear {
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    transition: 0.2s;
+    border-color: black;
+    transition: 0.2s;
+}
+
+#add:hover {
+    background-color: lightgreen;
+    transform: scale(1.05);
+}
+#clear:hover {
+    background-color: #f08080;
+    transform: scale(1.05);
+}
+
+
+.hide {
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    transition: 0.2s;
+    border-color: black;
+}
+
+.hide:hover {
+    background-color: #f08080;
+    transform: scale(1.12);
+}
+
+.delete {
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    transition: 0.2s;
+    border-color: black;
+}
+
+.delete:hover {
+    transform: scale(1.12);
+}
+
+
+
+.show {
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    transition: 0.2s;
+    border-color: black;
+}
+
+.show:hover {
+    background-color: lightgreen;
+    transform: scale(1.12);
+}
+
+.flashcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 50px;
+    transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.flashcard:hover {
+    transform: scale(1.05);
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.question {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.answer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flashcard-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 1260px;
+    gap: 30px;
+}
+
+textarea {
+    background-color: white;
+    height: 100px;
+    width: 200px;
+    resize: none;
+    font-size: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#load {
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    transition: 0.2s;
+    border-color: black;
+    transition: 0.2s;
+}
+
+#load:hover {
+    transform: scale(1.05);
+}

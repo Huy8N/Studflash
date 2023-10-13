@@ -1,0 +1,21 @@
+GET http://localhost:5501/users
+
+###
+
+POST http://localhost:5501/users
+Content-Type: application/JSON
+
+{
+    "name": "Huy",
+    "password": "TEST01"
+}
+
+###
+
+POST http://localhost:5501/users/login
+Content-Type: application/JSON
+
+{
+    "name": "huy",
+    "password": "01"
+}
