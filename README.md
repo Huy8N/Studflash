@@ -5,7 +5,7 @@
 1. Load files to preferred IDE
 2. Have Node.js and Express.js install
 3. Run in terminal "npm run devStart" in the root directory
-4. Default port it set to localhost:5501/login.html //NOTE: Some ports will be occupied, in that you can change the port in server.js
+4. Default port it set to localhost:5501/login.html //NOTE: Some ports will be occupied, in that case you can change the port in server.js
 
 // IMPORTANT 
  - To register head to the login page *that should be the default page*
