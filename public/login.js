@@ -33,7 +33,8 @@ login.addEventListener("click", async () => {
             console.log(error);
         }
     } catch (error) {
-        console.log(error)
+        console.log(error);
+        window.alert("Invalid Username or Password");
     }
 });
 
