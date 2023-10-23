@@ -51,6 +51,7 @@ register.addEventListener("click", async () => {
         });
         if (response.status === 201) {
             console.log('Registration Successful')
+            window.alert("Registration Successful");
         } else {
             console.log('Not Successful');
         }
